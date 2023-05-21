@@ -9,6 +9,6 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-// assertEqual(actual, expected);
+// assertEqual(actual, expected)
 assertEqual("✅✅✅", "🛑🛑🛑");
 assertEqual(1, 1);
