@@ -10,8 +10,8 @@ const assertEqual = function(actual, expected) {
 };
 
 // assertEqual(actual, expected)
-assertEqual("✅✅✅", "🛑🛑🛑");
-assertEqual(1, 1);
+// assertEqual("✅✅✅", "🛑🛑🛑");
+// assertEqual(1, 1);
 
 
 module.exports = assertEqual;
