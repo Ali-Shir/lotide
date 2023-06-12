@@ -1,18 +1,19 @@
-const assertEqual = function(actual, expected) {
-  if (actual === expected) {
-    console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
-  } else {
-    console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
-  }
-};
+// const assertEqual = function(actual, expected) {
+//   if (actual === expected) {
+//     console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
+//   } else {
+//     console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
+//   }
+// };
 
 // assertEqual("LHL", "Bootcamp");
 // assertEqual(1, 1);
 
-const tail = function(array) {
+const assertEqual = require("./assertEqual");
+
+const tail = function (array) {
   return array.slice(1);
 };
-
 
 console.log([1, 2, 3] === [1, 2, 3]);
 console.log([1, 2, 3] == [1, 2, 3]);
