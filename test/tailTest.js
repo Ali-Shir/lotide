@@ -27,6 +27,7 @@ const words = ["Yo Yo", "Lighthouse", "Labs"];
 tail(words);
 assertEqual(words.length, 3);
 
+module.exports = tail;
 
 const assert = require('chai').assert;
 const head   = require('../head');
